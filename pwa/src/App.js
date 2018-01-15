@@ -3,6 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    projects : [],
+    user: null,
+  }
+
+  componentWillMount(){
+    if(localStorage.getItem('user')){
+      this.setState({
+        user: JSON.parse(localStorage.getItem('user')),
+        projects: JSON.parse(localStorage.getItem('projects'))
+      });
+    }
+  }
+
   render() {
     return (
       <div className="App">
