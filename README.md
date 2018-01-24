@@ -63,5 +63,5 @@ You will also see any lint errors in the console.
 
 ## License
 
-© Profeticos, 2017. Ca
+© Profeticos, 2017.
 

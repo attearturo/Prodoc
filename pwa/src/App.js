@@ -23,12 +23,30 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Prodoc en PWA</h1>
         </header>
         <p className="App-intro">
+          Para empezar:
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-      </div>
+
+        <div id="login" className='landing'>
+          <div id="bodyLogin">
+            <form className='login' onSubmit={e => this.hacerLogin(e)}>
+              <img className="logo" src="public/img/logo.png" />
+              <h4 className='subHeader'>Just design better.</h4>
+              <input id='usern' type="email" name="user" placeholder="email" required />
+              <input id='psw' type="password" name="psw" placeholder="contraseña" required />
+              <button id='entrada' type="submit" className="btnLogin btnLogin-primary btnLogin-block btnLogin-large">Entrar</button>
+              <p className="subTexto">¿Eres nuevo? <a className="registro" href='#' onClick={() => this.setState({ pagina: 'registro' })}  >Crear una cuenta</a></p>
+              <button id='entrada'
+                type="submit"
+                className="btnLogin btnLogin-primary btnLogin-block btnLogin-large google"
+                onClick={this.handleAuth}>Empezar con Google</button>
+            </form>
+          </div>
+        </div>
+      </div>      
     );
   }
 }
