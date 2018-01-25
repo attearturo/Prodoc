@@ -16,18 +16,31 @@ We’re glad you asked! Prodoc is where design happens. It’s a digital workspa
 After creation, your project should look like this:
 
 ```
-TestServerProdoc/
-  .git/
+my-app/
   README.md
+  node_modules/
   package.json
-  api.js
-  server.js
+  firebase.json
+  public/
+    index.html
+    favicon.ico
+    manifest.json
+    images/
+      icons/
+  src/
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    logo.svg
+    registerServiceWorker.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
 
-* `server.js` is the JavaScript entry point.
-* `api.js` is the route entries;
+* `public/index.html` is the page template;
+* `src/index.js` is the JavaScript entry point.
 
 Then, you will need install the Node modules from npm like this:
 
@@ -43,15 +56,37 @@ They will not be included in the production build so you can use them for things
 
 ## Available Scripts
 
-You just need to open the server on your localhost with:
+In the project directory, you can run:
 
-### `$ node server.js`
+### `npm start`
 
-Open the server in the development mode.<br>
-Check [http://localhost:4000](http://localhost:4000) to view it in the browser.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](#deployment) for more information.
+
+
+
+## Deploying your app
+
+### `firebase login`
+
+First at all, you should login into your Firebase acount for enjoy the Hosting Service from this plataform. To deploy the app, simply run the following command from your project directory:
+
+### `firebase deploy`
+
+This will deploy your project to [http://prodocio.firebaseapp.com](http://prodocio.firebaseapp.com).
 
 
 <h2>Core Team</h2>
