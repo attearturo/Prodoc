@@ -25,10 +25,20 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Prodoc en PWA</h1>
         </header>
-        <p className="App-intro">
-          Para empezar:
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <div id='login' className='landing'>
+          <div id='bodyLogin'>
+            <form className='login' onSubmit='{}'>
+              <img className='logo' src='http://res.cloudinary.com/attearturo/image/upload/v1516987589/logo_qbojon.png'/>
+              <h4 className='subHeader'>Just design better</h4>
+              <input id='userName' type='email' name='user' placeholder='email' required/>
+              <input id='password' type='password' name='psw' placeholder='contraseña' required/>
+              <button id='loginButton' type='submit' className='btnLogin'>Entrar</button>
+              <p className='smallText'>¿Eres nuevo?<a className='goRegister' href='#'> Crear una cuenta</a></p>
+            </form>
+          </div>
+        </div>
+
 
         <div id="login" className='landing'>
           <div id="bodyLogin">
