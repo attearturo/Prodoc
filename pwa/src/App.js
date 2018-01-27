@@ -18,6 +18,11 @@ class App extends Component {
     }
   }
 
+  doLogin(evento){
+    evento.preventDefault();
+    var form: Object = evento.target;
+  }
+
   render() {
     return (
       <div className="App">
@@ -28,7 +33,7 @@ class App extends Component {
 
         <div id='login' className='landing'>
           <div id='bodyLogin'>
-            <form className='login' onSubmit='{}'>
+            <form className='login' onSubmit={e => this.doLogin(e)}>
               <img className='logo' src='http://res.cloudinary.com/attearturo/image/upload/v1516987589/logo_qbojon.png'/>
               <h4 className='subHeader'>Just design better</h4>
               <input id='userName' type='email' name='user' placeholder='email' required/>
