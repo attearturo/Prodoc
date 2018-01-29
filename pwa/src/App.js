@@ -20,7 +20,7 @@ class App extends Component {
 
   doLogin(evento){
     evento.preventDefault();
-    var form: Object = evento.target;
+    //var form: any = evento.target;
   }
 
   render() {
