@@ -86,7 +86,7 @@ First at all, you should login into your Firebase acount for enjoy the Hosting S
 
 ### `firebase deploy`
 
-This will deploy your project to [http://prodocid.firebaseapp.com](http://prodocid.firebaseapp.com).
+This will deploy your project to [http://prodocid.firebaseapp.com](http://prodocid.firebaseapp.com). Only works if you enter creator Firebase acount.
 
 
 <h2>Core Team</h2>
