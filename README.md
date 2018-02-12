@@ -88,8 +88,6 @@ First at all, you should login into your Firebase acount for enjoy the Hosting S
 
 This will deploy your project to [http://prodocid.firebaseapp.com](http://prodocid.firebaseapp.com). Only works if you enter creator Firebase acount.
 
-Planning for Firebase Function.
-
 
 <h2>Core Team</h2>
 
