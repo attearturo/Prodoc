@@ -88,6 +88,10 @@ First at all, you should login into your Firebase acount for enjoy the Hosting S
 
 This will deploy your project to [http://prodocid.firebaseapp.com](http://prodocid.firebaseapp.com). Only works if you enter creator Firebase acount.
 
+### `firebase function`
+
+First at all, you should login into your Firebase acount for enjoy the Hosting Service from this plataform. To deploy the app, simply run the following command from your project directory:
+
 <h2>Core Team</h2>
 
 [![Arturo Gómez](http://res.cloudinary.com/attearturo/image/upload/v1515451247/arturo3_hngldz.png)](https://github.com/attearturo) | [![Jose David Giraldo](http://res.cloudinary.com/attearturo/image/upload/v1515449112/jose_qbwutd.jpg)](https://github.com/josedavidgm1995) | [![Camilo Montoya](http://res.cloudinary.com/attearturo/image/upload/v1515449583/camilo_gftg7c.jpg)](https://github.com/korneas)
