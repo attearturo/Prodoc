@@ -13,6 +13,7 @@ We’re glad you asked! Prodoc is where design happens. It’s a digital workspa
 
 ## Folder Structure
 
+You should have something like this:
 
 ```
 my-app/
