@@ -8,8 +8,6 @@
 ## What is Prodoc?
 We’re glad you asked! Prodoc is where design happens. It’s a digital workspace that powers your design teams — all the pieces and the people — so you can get things done.
 
-> This is a developer project. It's building with React and Node.js using MongoDB Atlas.
-
 
 ## Folder Structure
 
