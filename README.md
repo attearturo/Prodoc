@@ -95,5 +95,5 @@ First at all, you should login into your Firebase acount for enjoy the Hosting S
 
 ## License
 
-© Profeticos
+© Profeticos 2017
 
