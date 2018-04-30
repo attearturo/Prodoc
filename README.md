@@ -85,6 +85,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 First at all, you should login into your Firebase acount for enjoy the Hosting Service from this plataform. To deploy the app, simply run the following command from your project directory:
 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 
 <h2>Core Team</h2>
 
