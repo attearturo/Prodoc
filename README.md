@@ -9,6 +9,9 @@
 We’re glad you asked! Prodoc is where design happens. It’s a digital workspace that powers your design teams — all the pieces and the people — so you can get things done.
 
 
+## What is Prodoc?
+We’re glad you asked! Prodoc is where design happens. It’s a digital workspace that powers your design teams — all the pieces and the people — so you can get things done.
+
 ## Folder Structure
 
 
