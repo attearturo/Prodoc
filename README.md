@@ -76,17 +76,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 
 ## Deploying your app
 
 ### `firebase login`
 
-First at all, you should login into your Firebase acount for enjoy the Hosting Service from this plataform. To deploy the app, simply run the following command from your project directory:
+First at all, you should login into your Firebase acount for enjoy the Hosting Service from this plataform. To deploy the app, simply run the following command from your project directory.
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
