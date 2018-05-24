@@ -11,10 +11,6 @@ We’re glad you asked! Prodoc is where design happens. It’s a digital workspa
 
 ## Folder Structure
 
-
-
-
-
 ```
 my-app/
   README.md
@@ -77,9 +73,6 @@ Your app is ready to be deployed!
 See the section about [deployment](#deployment) for more information.
 
 
-
-
-
 ## Deploying your app
 
 ### `firebase login`
@@ -88,7 +81,6 @@ First at all, you should login into your Firebase acount for enjoy the Hosting S
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 
 
 <h2>Core Team</h2>
@@ -101,3 +93,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## License
 
 © Profeticos 2017
+Cali, Colombia
