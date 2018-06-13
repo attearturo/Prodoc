@@ -97,5 +97,3 @@ Cali, Colombia
 
 ## License
 
-© Profeticos 2017
-Cali, Colombia
