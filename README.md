@@ -89,12 +89,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 :---:|:---:|:---:
 [Arturo Gómez](https://github.com/attearturo) | [Jose David Giraldo](https://github.com/josedavidgm1995) | [Camilo Montoya](https://github.com/korneas)
 
-
-## License
-
-© Profeticos 2017
-Cali, Colombia
-
 ## License
 
 © Profeticos 2017
