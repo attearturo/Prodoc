@@ -96,8 +96,8 @@ Cali, Colombia
 
 
 
-© Profeticos 2017
-Cali, Colombia
+© 
+
 
 
 
