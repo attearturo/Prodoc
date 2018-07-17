@@ -95,6 +95,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Cali, Colombia
 
 
+## License
+
+© Profeticos 2017
+Cali, Colombia
+
+
+
 
 
 
